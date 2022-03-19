@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Instructions for Use:
+
+Navigation:
+Cells can be navigated to either by clicking or uses the arrow keys
+
+Clicking will navigate to the clicked cell.
+
+Arrow keys will navigate to new cells as follows:
+
+Right: Moves right 1 cell Unless at the rightmost edge:
+Left: Moves left 1 cell unless at the Leftmost edge:
+Up: Moves up 1 cell unless at the top of spreadsheet.
+Down: Moves down 1 cell unless at the bottom of spreadsheet.
+
+Note. Navigating with the arrow keys will populate the previous(cell before move) Cell with what is in the textbox
+Clicking a new Cell will not populate the previous cell. Enter or the textbox MUST be clicked in that case
+
+File Menu:
+
+New: Opens a new Empty spreadsheet
+
+Open: Opens a .sprd file and populates the contents of the spreadsheet with those of the files
+Updates the spreadsheet name
+
+Save: If the file has a name(was saved) will automatically save the file in the same path/file. Otherwise, goes to the Saveas Dialog
+
+SaveAs: Allows the user to specify the name, location, and file type, then save it.
+
+
+Edit Menu:
+
+Cut: Clears the selected text in the cell or textbox, then adds it to the clipboard
+
+Copy: Copies the selected text to keyboard
+If copy is used while selected on a cell(focused on a cell), will copy the CONTENTS of the cell rather than the value
+if copy is used while focus is on textbox, will copy the contents of the textbox
+
+Paste: Pastes the contents of the clipboard
+If focus is on a cell, will copy the contents to that cell and update the spreadsheet accordingly
+If focus is on textbox, will copy contents to textbox. Cell 
+
+Select All:
+Selects the entirety of the Text in the textbox
+
+Help: Opens a new form with Instructions for Using the spreadsheet
+
+About: Opens README file
+
+UI Elements
+
+Cell name: Displays the name of the cell. Can be toggled visible or invisible
+
+Cell Contents: Editable textbox that displays cell contents. Contents of Cell can be edited by entering the desired information
+and clicking the textbox or hitting the ENTER key
+
+Cell Value: Displays the numerical Value of the cell. This can be a string, double, or FormulaError is formula contains
+a cell with either no value or that is out of range
+
+Tools:
+
+Customize: Contains various options for slightly editing the UI elements
+
+Random Stat Generator: Generates the typical D &amp; D stats randomly
+
+Show Edit Button: Toggles the Edit button on and off
+
+Show Help Button: Toggles the help button on and off
+
+Show File button: Toggles the file button on and off
+
+Show Cell name Box: Toggles cell name box on and Off
+
+Show Cell Value Box: Toggles Cell value box on and off.
+
+The Cell contents box, the Tools box, and the spreadsheet cells can't be toggled on or Off
+
+Additional Features:
+
+Buttons to Hide/Show everything besides the cell contents and Help button
+Added copy/paste/Cut functionality, and let them work when the focus is on either the cell or the contents box
+Added SelectAll functionality: which Selects the entirety of the Text in the textbox
+Added a random stat generator because I could. It's under tools
+
+Want to add printing functionality, along with a Tic Tac toe game. But ran out of time.
+
+
+Sources for Implementation from Official Microsoft Documentation
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAIBkAAAEAIAAMDQAAFgAAACgAAAAgAAAAMgAAAAEAIAAAAAAAgAwAAMMOAADDDgAAAAAAAAAA
+        AACe10H/odJA/6HSQP+g1UD/ntZA/57WQP+f1UD/n9VA/6DUQP+h00D/otFA/6LRQP+h0kD/odNA/6HS
+        QP+h0kD/odJA/6HSQP+h0kD/odNA/6HTQP+h00D/odNA/6HSQP+h0kD/otJA/6LRQP+i0UD/odJA/6DT
+        QP+h0kD/odJA/6DUQP+mzT//ps0//6XOQP+lzkD/pc5A/6XOQP+lzkD/ps0//6bNP/+mzT//ps0//6bN
+        P/+mzT//ps0//6bNP/+mzT//ps0//6bNP/+mzT//ps0//6bNP/+mzT//ps0//6bNP/+mzT//ps0//6bN
+        P/+mzT//ps0//6bNP/+mzT//oNRA/6XOP/+lzj//pc4//6XOP/+lzj//pc4//6XOP/+lzj//pc4//6XO
+        P/+lzj//pc4//6XOP/+lzj//pc4//6XOP/+lzj//pc4//6XOP/+lzj//pc4//6XOP/+lzj//pc4//6XO
+        P/+lzj//pc4//6XOP/+lzj//pc4//6XOP/+g1UD/pNA//6TQP/+k0D//pNA//6TQP/+k0D//pNA//6TQ
+        P/+k0D//pNA//6TQP/+k0D//pNA//6TQP/+k0D//pNA//6TQP/+k0D//pNA//6TQP/+k0D//pNA//6TQ
+        P/+k0D//pNA//6TQP/+k0D//pNA//6TQP/+k0D//pNA//6DVQP+k0T//pNE//6TRP/+k0T//os8+/6LO
+        Pv+gzD7/oMw+/6HNPv+izj7/oc0+/6LOPv+izz7/oc4+/5/LPf+j0D//o88//6HNPv+gyz3/oc0+/6HN
+        Pv+gzD3/n8s9/6PQP/+izz7/os4+/6TRP/+k0T//pNE//6TRP/+k0T//oNVA/6PSP/+j0j//o9I//6XU
+        QP+HrTT/bYwq/3aXLv9wkCv/dJUt/4SqM/92mC7/gKQx/4etNP97njD/XHYk/5O8Of+gzj7/Y38n/26O
+        K/9qiCn/dZYt/2eFKP9kgCf/msc7/4ClMf+BpTL/pdRA/6PSP/+j0j//o9I//6PSP/+g1UD/otM//6LT
+        P/+i0z//pNZA/32jMf9FWxz/dZku/2KBJv9igCb/bI0q/01kH/9nhij/e6Av/2yNKv8+URn/YH0m/424
+        N/9NZR//WnYj/0heHP9lgyj/X30l/3yhMP90ly3/TWQe/3mdL/+k1kD/otM//6LTP/+i0z//otM//57W
+        QP+g1ED/oNRA/6DUQP+i1kH/fqcy/0tjHv+DrTT/VXAi/1l2JP+BqjP/X30m/3GVLf9SbCH/TmYf/0Zd
+        HP9SbCH/ibU3/3WbL/95nzD/SmIe/3abL/9qiyr/jLk3/3abL/+FrzX/msw9/6HUQP+g1ED/oNRA/6DU
+        QP+g1ED/n9dA/6DUQP+g1ED/oNRA/6HVQP+azD7/k8M7/6DUQP+LuDj/k8M7/5/TQP+UxTv/ksI7/468
+        Of+LuDj/jbs5/5nMPf+azT7/kcA6/5vNPv+SwTr/n9NA/5TEO/+bzj7/nM8+/5/TQP+h1UD/oNRA/6DU
+        QP+g1ED/oNRA/6DUQP+e10D/n9U//5/VP/+f1T//n9U//6DWP/+g1kD/n9U//6HXQP+g1kD/n9Y//6DW
+        QP+g1kD/oNdA/6HYQP+Yyzz/YoMo/zdJF/8uPhP/gq80/6LZQf+f1T//oNZA/6DWP/+g1j//n9Y//5/V
+        P/+f1T//n9U//5/VP/+f1T//n9U//53ZQP+e1z//ntc//57XP/+e1z//ntc//57XP/+e1z//ntc//57X
+        P/+e1z//ntc//57XP/+g2T//lss8/0VdHf8mMxD/OU0X/zNGFf99qTL/oNpA/57XP/+e1z//ntc//57X
+        P/+e1z//ntc//57XP/+e1z//ntc//57XP/+e1z//ndlA/5/YQP+f2ED/n9hA/5/YQP+f2ED/n9hA/5/Y
+        QP+f2ED/n9hA/5/YQP+g2kD/oNpA/5TJPP9VdCP/HCYN/zxSGP9AWBr/NUgW/36rM/+h20H/n9hA/5/Y
+        QP+f2ED/n9hA/5/YQP+f2ED/n9hA/5/YQP+f2ED/n9hA/5/YQP+c20H/ntpA/57aQP+e2kD/ntpA/57a
+        QP+e2kD/ntpA/57aQP+e2kD/nNg//4W3Nv9cfib/Q1wc/yg3Ef8yRBX/O1EX/0BYGv82SRb/fawy/6Dd
+        Qf+e2kD/ntpA/57aQP+e2kD/ntpA/57aQP+e2kD/ntpA/57aQP+e2kD/ntpA/5vbQf+c2kD/nNpA/5za
+        QP+c2kD/nNpA/5zaQP+c2kD/nNpA/53bQP+TzTz/TWsg/zJGFv+Jvzj/R2Qd/zNIFf8yRhX/OU8Y/zZK
+        Fv98rTP/nt1B/5zaQP+c2kD/nNpA/5zaQP+c2kD/nNpA/5zaQP+c2kD/nNpA/5zaQP+c2kD/mt1B/5vb
+        Qf+b20H/m9tB/5vbQf+b20H/m9tB/5vbQf+b20H/m9tB/5zbQf+Kwjn/R2Ue/4a9OP8zRxb/JTQQ/z1V
+        Gv8xRBX/IzEQ/2+cL/+c3EH/nNtB/5vbQf+b20H/m9tB/5vbQf+b20H/m9tB/5vbQf+b20H/m9tB/5vb
+        Qf+Z30H/m9xB/5vcQf+b3EH/m9xB/5vcQf+b3EH/m9xB/5vcQf+b3EH/nN1B/43IO/8yRxb/RWEd/ys9
+        E/93qTL/mtpA/4/KPP9TdiT/PFUa/5XTPv+b3EH/m9xB/5vcQf+b3EH/m9xB/5vcQf+b3EH/m9xB/5vc
+        Qf+b3EH/m9xB/5ngQf+b3kH/m95B/5veQf+b3kH/m95B/5veQf+b3kH/m95B/5veQf+c4EH/mNlA/3is
+        Mv92qjL/N08Y/2iVLP+Iwjn/aJUs/zNHFv9vny//nOBC/5veQf+b3kH/m95B/5veQf+b3kH/m95B/5ve
+        Qf+b3kH/m95B/5veQf+b3kH/mOBB/5reQf+a3kH/mt5B/5reQf+a3kH/mt5B/5reQf+a3kH/muBC/4bC
+        Of9agif/SWkf/z5ZGv9OcSH/V30l/0lpH/8+WBv/KDkS/4K8N/+b4EL/mt5B/5reQf+a3kH/mt5B/5re
+        Qf+a3kH/mt5B/5reQf+a3kH/mt5B/5reQf+Z4EL/md9B/5nfQf+Z30H/md9B/5nfQf+Z30H/md9B/5nf
+        Qf+a4EL/aZgt/z1YG/9BXxz/RGMd/3qyNP+c40L/l9xA/4TAOP87Vhr/iMU6/5rhQv+Z30H/md9B/5nf
+        Qf+Z30H/md9B/5nfQf+Z30H/md9B/5nfQf+Z30H/md9B/5fhQf+Y4ED/mOBA/5jgQP+Y4ED/mOBA/5jg
+        QP+Y4ED/meFA/5DVPf9QdSP/OlUZ/zZQF/89WRr/ick6/5XbP/+Kyzr/VXwk/1uFJ/+X30D/mOBA/5jg
+        QP+Y4ED/mOBA/5jgQP+Y4ED/mOBA/5jgQP+Y4ED/mOBA/5jgQP+Y4ED/l+JB/5fhQf+X4UH/l+FB/5fh
+        Qf+X4UH/l+FB/5fhQf+Y40H/c6sy/0hrH/9eiyj/cKcw/1B3I/9FZR7/R2kf/0VmHv9jkyv/k9o//5ji
+        Qf+X4UH/l+FB/5fhQf+X4UH/l+FB/5fhQf+X4UH/l+FB/5fhQf+X4UH/l+FB/5fhQf+X4kL/l+JB/5fi
+        Qf+X4kH/l+JB/5fiQf+X4kH/l+JB/5fiQv+R2T//kts//5nlQv+Z5UL/l+FB/4vQPP+Hyjv/j9c+/5jk
+        Qv+X40L/l+JB/5fiQf+X4kH/l+JB/5fiQf+X4kH/l+JB/5fiQf+X4kH/l+JC/5fiQv+X4kH/l+JB/5fj
+        Qv+X40L/l+NC/5fjQv+X40L/l+NC/5fjQv+X40L/l+NC/5fkQv+X5EL/l+NC/5fjQv+X5EL/mORC/5jl
+        Qv+X5EL/l+NC/5fjQv+X40L/l+NC/5fjQv+X40L/l+NC/5fjQv+X40L/l+NC/5fjQv+X40L/l+NC/5fj
+        Qv+X40L/luRC/5blQv+W5UL/luVC/5blQv+W5UL/luVC/5blQv+W5UL/luVC/5blQv+W5UL/luVC/5bl
+        Qv+W5UL/luVC/5blQv+W5UL/luVC/5blQv+W5UL/luVC/5blQv+W5UL/luVC/5blQv+W5UL/luVC/5fk
+        Qv+X5EL/l+RC/5blQv+W5EL/leVC/5XlQv+V5UL/leVC/5XlQv+V5UL/leVC/5XlQv+V5UL/leVC/5Xl
+        Qv+V5UL/leVC/5XlQv+V5UL/leVC/5XlQv+V5UL/leVC/5XlQv+V5UL/leVC/5XlQv+V5UL/leVC/5Xl
+        Qv+V5UL/leVC/5XlQv+V5UL/luVC/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+</root>
