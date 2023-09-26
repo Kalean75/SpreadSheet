@@ -8,7 +8,6 @@ using System.Xml;
 /// </summary>
 namespace SS
 {
-	///Spreadsheet edit for PS5
 	/// <summary>
 	/// Represents a spreadsheet with an infinite number of empty cells
 	/// </summary>

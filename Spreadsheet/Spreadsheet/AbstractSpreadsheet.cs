@@ -37,7 +37,6 @@ namespace SS
 	}
 
 
-	// PARAGRAPHS 2 and 3 modified for PS5.
 	/// <summary>
 	/// An AbstractSpreadsheet object represents the state of a simple spreadsheet.  A 
 	/// spreadsheet consists of an infinite number of named cells.
@@ -85,34 +84,29 @@ namespace SS
 	/// </summary>
 	public abstract class AbstractSpreadsheet
 	{
-		// ADDED FOR PS5
 		/// <summary>
 		/// True if this spreadsheet has been modified since it was created or saved                  
 		/// (whichever happened most recently); false otherwise.
 		/// </summary>
 		public abstract bool Changed { get; protected set; }
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// Method used to determine whether a string that consists of one or more letters
 		/// followed by one or more digits is a valid variable name.
 		/// </summary>
 		public Func<string, bool> IsValid { get; protected set; }
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// Method used to convert a cell name to its standard form.  For example,
 		/// Normalize might convert names to upper case.
 		/// </summary>
 		public Func<string, string> Normalize { get; protected set; }
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// Version information
 		/// </summary>
 		public string Version { get; protected set; }
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// Constructs an abstract spreadsheet by recording its variable validity test,
 		/// its normalization method, and its version information.  The variable validity
@@ -128,7 +122,6 @@ namespace SS
 			this.Version = version;
 		}
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// Returns the version information of the spreadsheet saved in the named file.
 		/// If there are any problems opening, reading, or closing the file, the method
@@ -136,7 +129,6 @@ namespace SS
 		/// </summary>
 		public abstract string GetSavedVersion(String filename);
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// Writes the contents of this spreadsheet to the named file using an XML format.
 		/// The XML elements should be structured as follows:
@@ -160,7 +152,6 @@ namespace SS
 		/// </summary>
 		public abstract void Save(String filename);
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// If name is null or invalid, throws an InvalidNameException.
 		/// 
@@ -182,7 +173,6 @@ namespace SS
 		/// </summary>
 		public abstract object GetCellContents(String name);
 
-		// ADDED FOR PS5
 		/// <summary>
 		/// If content is null, throws an ArgumentNullException.
 		/// 
@@ -217,7 +207,6 @@ namespace SS
 		/// </summary>
 		public abstract IList<String> SetContentsOfCell(String name, String content);
 
-		// MODIFIED PROTECTION FOR PS5
 		/// <summary>
 		/// The contents of the named cell becomes number.  The method returns a
 		/// list consisting of name plus the names of all other cells whose value depends, 
@@ -230,7 +219,6 @@ namespace SS
 		/// </summary>
 		protected abstract IList<String> SetCellContents(String name, double number);
 
-		// MODIFIED PROTECTION FOR PS5
 		/// <summary>
 		/// The contents of the named cell becomes text.  The method returns a
 		/// list consisting of name plus the names of all other cells whose value depends, 
@@ -243,7 +231,6 @@ namespace SS
 		/// </summary>
 		protected abstract IList<String> SetCellContents(String name, String text);
 
-		// MODIFIED PROTECTION FOR PS5
 		/// <summary>
 		/// If changing the contents of the named cell to be the formula would cause a 
 		/// circular dependency, throws a CircularException, and no change is made to the spreadsheet.
