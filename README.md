@@ -1,10 +1,11 @@
 # SpreadSheet
 
-## Author: Devin White
+### Author: 
+Devin White
 
 ## Instructions for Use:
 
-### Navigation:
+#### Navigation:
 
 Cells can be navigated to either by clicking or uses the arrow keys
 
